@@ -672,3 +672,69 @@ footer {
 	margin-left: 1500px;
 	margin-top: -2005px;
 }
+
+.labs-container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.labs-sidebar {
+  width: 250px;
+  padding-right: 20px;
+}
+
+.labs-game-box:hover {
+  background-color: #444;
+}
+
+.labs-content {
+  flex: .8;
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-left: 2px solid #333;
+}
+
+.labs-game-box {
+  background-color: #222;
+  border: 1px solid #333;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.labs-game-title {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.labs-release-date {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.labs-button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.labs-button-grid button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.labs-button-grid button:hover {
+  background-color: #444;
+}
+
+.labs-game-header {
+  text-align: left;	
+}
