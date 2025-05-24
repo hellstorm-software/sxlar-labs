@@ -675,9 +675,11 @@ footer {
 
 .labs-container {
   display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  gap: 20px;
+  width: 100%; 
+  max-width: 850%; 
+  margin-left: 10%; 
+  padding: 0 20px; 
 }
 
 .labs-sidebar {
@@ -692,11 +694,13 @@ footer {
 .labs-content {
   flex: .8;
   background-color: #1b1b1b;
+  margin-left: 5%;
   padding: 20px;
   border-left: 2px solid #333;
 }
 
 .labs-game-box {
+  width: 140%;
   background-color: #222;
   border: 1px solid #333;
   padding: 12px;
